@@ -1,0 +1,42 @@
+[FILES AND DIRECTORIES]
+    ~ = /home/user
+
+    (navigation)
+    ls // list directory
+    cd folder_name // change directory, goes inside 'folder_name' directory
+    cd .. // goes outside current folder, navigating up one level
+    
+    (where am I?)
+    pwd // 'print working directory', shows the complete path to out current directory
+    
+    (create folder)
+    mkdir folder_name_here // you can indicate a directory path instead of creating in the current one
+    
+    (delete folder)
+    rmdir folder_name_here // you can indicate a directory path instead of deleting files in the current one
+
+[C]
+(while in the .c file folder)
+
+    (compile)
+    gcc -o program yourcode.c
+    or
+    gcc yourcode.c
+    
+    (run)
+    ./a.out
+    or
+    ./program
+
+[C++]
+(while in the .cpp file folder)
+
+    (compile)
+    g++ -o program yourcode.cpp
+    or
+    g++ yourcode.cpp
+   
+    (run)
+    ./a.out
+    or
+    ./program
