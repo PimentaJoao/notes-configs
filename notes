@@ -1,25 +1,25 @@
 [COMPILING]
-    (while in the .c file folder)
+    (while in the file's folder)
 
     (compile C)
-    gcc -o program yourcode.c // creates an executable file called 'a.out'  
+    gcc -o program yourcode.c  
     or
-    gcc yourcode.c
+    gcc yourcode.c // creates an executable file called 'a.out' 
 
     (run C)
-    ./a.out
-    or
     ./program
+    or
+    ./a.out
     
-     (compile C++)
-     g++ -o program yourcode.cpp // creates an executable file called 'a.out'
-     or
-     g++ yourcode.cpp
+    (compile C++)
+    g++ -o program yourcode.cpp
+    or
+    g++ yourcode.cpp // creates an executable file called 'a.out'
 
-     (run C++)
-     ./a.out
-     or
-     ./program
+    (run C++)
+    ./program
+    or
+    ./a.out
 
 [FILES AND DIRECTORIES]
     ~ = /home/user
