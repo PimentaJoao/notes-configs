@@ -38,3 +38,15 @@
     (delete folder)
     rmdir folder_name_here // you can indicate a directory path instead of deleting files in the current one
     
+    (create file)
+    touch namefile
+    or
+    touch namefile.txt // you can explicit the file extension before creating it
+    
+    (open file)
+    xdg-open namefile.txt // or other extensions
+    
+    (open file on terminal)
+    cat namefile.txt // or other extensions
+    less namefile.txt // for longer files, press q to quit
+    
