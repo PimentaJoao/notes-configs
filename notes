@@ -1,3 +1,26 @@
+[COMPILING]
+    (while in the .c file folder)
+
+    (compile C)
+    gcc -o program yourcode.c // creates an executable file called 'a.out'  
+    or
+    gcc yourcode.c
+
+    (run C)
+    ./a.out
+    or
+    ./program
+    
+     (compile C++)
+     g++ -o program yourcode.cpp // creates an executable file called 'a.out'
+     or
+     g++ yourcode.cpp
+
+     (run C++)
+     ./a.out
+     or
+     ./program
+
 [FILES AND DIRECTORIES]
     ~ = /home/user
 
@@ -14,29 +37,4 @@
     
     (delete folder)
     rmdir folder_name_here // you can indicate a directory path instead of deleting files in the current one
-
-[C]
-(while in the .c file folder)
-
-    (compile)
-    gcc -o program yourcode.c
-    or
-    gcc yourcode.c
     
-    (run)
-    ./a.out
-    or
-    ./program
-
-[C++]
-(while in the .cpp file folder)
-
-    (compile)
-    g++ -o program yourcode.cpp
-    or
-    g++ yourcode.cpp
-   
-    (run)
-    ./a.out
-    or
-    ./program
