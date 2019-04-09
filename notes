@@ -30,10 +30,10 @@
     cd .. // goes outside current folder, navigating up one level
     
     (where am I?)
-    pwd // 'print working directory', shows the complete path to out current directory
+    pwd // 'print working directory', shows the complete path to our current directory
     
     (create folder)
-    mkdir folder_name_here // you can indicate a directory path instead of creating in the current one
+    mkdir folder_name_here // you can indicate a directory path instead of creating a file in the current one
     
     (delete folder)
     rmdir folder_name_here // you can indicate a directory path instead of deleting files in the current one
