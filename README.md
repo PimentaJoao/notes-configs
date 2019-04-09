@@ -3,5 +3,5 @@ This is a repo for making notes on multiple linux (mostly ubuntu) commands, fixe
 
 General content bellow:
 
-* Files and Directories
 * Compiling
+* Files and Directories
