@@ -26,6 +26,7 @@
 
     (navigation)
     ls // list directory
+    ls -al // lists all files from directory, with additional information
     cd folder_name // change directory, goes inside 'folder_name' directory
     cd .. // goes outside current folder, navigating up one level
     
@@ -49,4 +50,26 @@
     (open file on terminal)
     cat namefile.txt // or other extensions
     less namefile.txt // for longer files, press q to quit
+
+[GIT]
+
+    (install)
+    apt-get install git
     
+    (version)
+    git --version
+    
+    (configuring)
+    git config --global user.name "USERNAME_HERE" // --global uses the global file
+    git config --global user.email "YOUREMAIL_HERE@example.com"
+    git config --list // list of configurations
+    
+    (cloning)
+    git clone https://CLONE_LINK_HERE.com // clones an already made repo
+
+    (adding files to master branch)
+    git status // shows status about current active repo, files that changed, got added, or still not added, etc.
+    git add namefile.txt // adds file to staging branch
+    git add . // adds everything there is to be added
+    git commit -m "your comment about the commit here" namefile.txt // -m adds comment, namefile.txt, at the end, is optional
+    git push -u origin master // actually pushes new stuff to github
