@@ -73,3 +73,14 @@
     git add . // adds everything there is to be added
     git commit -m "your comment about the commit here" namefile.txt // -m adds comment, namefile.txt, at the end, is optional
     git push -u origin master // actually pushes new stuff to github
+
+[NODE]
+
+    (install)
+    sudo apt-get install nodejs
+    
+    (uninstall)
+    sudo apt-get purge --auto-remove nodejs npm // essentialy is: "sudo apt-get purge nodejs" & "sudo apt-get autoremove"
+    
+    (update npm)
+    sudo npm install npm@latest -g
