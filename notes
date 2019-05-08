@@ -84,3 +84,6 @@
     
     (update npm)
     sudo npm install npm@latest -g
+    
+    (downgrade npm)
+    sudo npm install -g npm@latest-3 // fixes some bugs and errors
