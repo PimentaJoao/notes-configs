@@ -10,6 +10,8 @@ General content bellow (sorted in alphabetical order):
 
 * Compiling
 * Files and Directories
+* Git
+* Node
 
 ## General Format
 ```
