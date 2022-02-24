@@ -1,0 +1,57 @@
+[Bind]
+
+    (binding to image 'src' attribute)
+    Contrary to popular belief, one can't simply use :src="someComputedProperty" to bind a dynamic path to a image file. Instead, you got to return a require function.
+    Example:
+    
+        someComputedProperty: function {
+            return '/assets/images/' + this.dynamicImageName + '.jpg'; // WRONG 
+        }
+        
+        someComputedProperty: function {
+            return {
+                path: require('/assets/images/' + this.dynamicImageName + '.jpg') // RIGHT
+            }
+        }
+
+
+[History mode] // removes '#' from url
+
+    (fix history mode navigation) // hostinger (apache)
+    steps: 
+        1) Go to the server's file manager;
+        2) Go to the root folder of your website files (not the server root);
+        3) Create a .htaccess text file;
+        4) Paste the code from this link: https://router.vuejs.org/guide/essentials/history-mode.html
+        5) As the time of writing this: 
+            <IfModule mod_rewrite.c>
+              RewriteEngine On
+              RewriteBase /
+              RewriteRule ^index\.html$ - [L]
+              RewriteCond %{REQUEST_FILENAME} !-f
+              RewriteCond %{REQUEST_FILENAME} !-d
+              RewriteRule . /index.html [L]
+            </IfModule>
+            // or this, for redirecting to https
+            <IfModule mod_rewrite.c>
+                RewriteEngine On
+                RewriteCond %{HTTPS} off
+                RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+                RewriteEngine On
+                RewriteBase /
+                RewriteRule ^index\.html$ - [L]
+                RewriteCond %{REQUEST_FILENAME} !-f
+                RewriteCond %{REQUEST_FILENAME} !-d
+                RewriteRule . /index.html [L]
+            </IfModule>
+
+        6) Save changes.
+
+
+[Scoped CSS link/importing]        
+
+    (Linking a .css stylesheet to a view/component)
+    When you want to reuse a stylesheet, "@import" can not be used in a scoped manner. For that, we simply use the <style> tag.
+    Example:
+    
+        <style scoped src="/assets/styles/stylesheet.css"></style>
