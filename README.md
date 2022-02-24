@@ -1,8 +1,8 @@
-# notes-linux
+# Notes and Configs
 
 ## About
 
-This is a repo for making notes on multiple linux (mostly ubuntu) commands, fixes, customizations, and general miscellaneous knowledge. Everything I have ever used/done linux-wise and feel like it's useful and will need to remember later is compiled here.
+This repository was originally created for taking notes on linux (mostly ubuntu) commands, fixes, customizations, and general miscellaneous knowledge. I also started to keep and compile other notes and configs here, for things such as vue.js, neovim, vscode and other tech related stuff.
 
 ## Content
 
